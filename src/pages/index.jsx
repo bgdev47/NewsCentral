@@ -9,16 +9,16 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>CodeFeed | Home</title>
+        <title>NEWSCENTRAL | Home</title>
         <meta 
           name='description'
           description='Browse all the coding news of today from around the globe'
         />
       </Head>
       <HeroSection 
-        title='Code' 
-        description='Catch up on all the coding news from around the globe, at the touch of a button'
-        bgImage="/backgrounds/hero-code.webp"
+        title='NewsCentral' 
+        description='CATCH UP ON ALL YOUR LATEST NATIONAL & GLOBAL NEWS'
+        bgImage="/backgrounds/hero.jpg"
       />
       {articles.length > 0 && <ArticlesList articles={articles} />}
     </Fragment>
