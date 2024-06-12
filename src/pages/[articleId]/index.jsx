@@ -1,25 +1,27 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
-import ArticleDetail from '@/components/feature/articles/ArticleDetail/ArticleDetail';
+// import ArticleDetail from '@/components/feature/articles/ArticleDetail/ArticleDetail';
 
 function ArticleDetailPage(props) {
-  const { article } = props;
+  // const { article } = props;
 
   return (
     <Fragment>
-      <Head>
+      {/* Article Detail Page */}
+      <h1>NEWS DETAIL</h1>
+      {/* <Head>
         <title>{`CodeFeed | ${article.category}`}</title>
         <meta 
           name='description'
           description={article.title + ': ' + article.description}
         />
-      </Head>
-      <ArticleDetail 
+      </Head> */}
+      {/* <ArticleDetail 
         image={article.image}
         title={article.title}
         description={article.description}
         category={article.category}
-      />
+      /> */}
     </Fragment>
   );
 }
