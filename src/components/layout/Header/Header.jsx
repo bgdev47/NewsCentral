@@ -23,13 +23,10 @@ function Header() {
             <Link href='/worldnews'><span>Global</span></Link>
           </li>
           <li>
-          <Link href='/sportnews'><span>Sport</span></Link>
+          <Link href='/about'><span>About</span></Link>
           </li>
           <li>
-            <Link href='/privacypolicy'><span>Privacy Policy</span></Link>
-          </li>
-          <li>
-          <Link href='/aboutus'><span>About Us</span></Link>
+            <Link href='/privacy'><span>Privacy Policy</span></Link>
           </li>
           <li>
             <Link href='/contact'><span>Contact</span></Link>

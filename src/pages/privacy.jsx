@@ -2,22 +2,22 @@ import { Fragment } from 'react';
 import Head from 'next/head';
 import HeroSection from '@/components/layout/HeroSection/HeroSection';
 
-function ContactPage() {
+function PrivacyPage() {
   return (
     <Fragment>
       <Head>
-        <title>Contact</title>
+        <title>Privacy Policy</title>
         <meta 
           name='description'
-          description='Have any questions? Get in touch!'
+          description='All the details of our privacy policy'
         />
       </Head>
       <HeroSection 
-        title='CONTACT US' 
-        bgImage="/backgrounds/contact.jpg"
+        title='PRIVACY POLICY'
+        bgImage="/backgrounds/privacy.jpg"
       />
     </Fragment>
   );
 }
 
-export default ContactPage;
+export default PrivacyPage;
