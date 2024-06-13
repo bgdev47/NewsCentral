@@ -1,0 +1,15 @@
+@use '../abstracts/' as *;
+
+.notFoundWrapper {
+  margin: 4rem 0;
+  text-align: center;
+
+  .btn-icon {
+    font-size: 50px;
+  }
+  
+  h1 {
+    color: $primaryColor;
+    font-size: 50px;
+  }
+}

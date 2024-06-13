@@ -23,7 +23,7 @@ function Header() {
             <Link href='/worldnews'><span>Global</span></Link>
           </li>
           <li>
-          <Link href='/about'><span>About</span></Link>
+            <Link href='/about'><span>About</span></Link>
           </li>
           <li>
             <Link href='/privacy'><span>Privacy Policy</span></Link>

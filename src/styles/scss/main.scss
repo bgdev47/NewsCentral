@@ -1,9 +1,8 @@
 // GLOBAL LEVEL SCSS (compile to globals.css)
 // NOTE: All other SCSS compiles at component-level (see components folder)
 
-// base imports
+// Base Imports
 @use './base/base';
 
-// page imports (if required)
-
-// vendor imports (if required)
+// Page Imports
+@use './pages/notfound.scss'
