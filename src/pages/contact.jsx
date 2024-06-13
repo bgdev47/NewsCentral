@@ -16,6 +16,17 @@ function ContactPage() {
         title='CONTACT US' 
         bgImage="/backgrounds/contact.jpg"
       />
+      <div style={{ textAlign: 'center' }}>
+      <h1><u>How To Contact</u></h1>
+        <div>
+          <h2>Phone</h2>
+          <p>Customer Support: (03) 9124-2345</p>
+        </div>
+        <div>
+          <h2>Email</h2>
+          <p>Customer Support: contact@newscentral.com.au</p>
+        </div>
+      </div>
     </Fragment>
   );
 }

@@ -12,10 +12,14 @@ function AboutPage() {
           description='Learn about who we are'
         />
       </Head>
-      <HeroSection 
-        title='ABOUT US' 
+      <HeroSection
+        title='ABOUT US'
         bgImage="/backgrounds/about.jpg"
       />
+      <div style={{ textAlign: 'center' }}>
+        <h1><u>A Little About Us...</u></h1>
+        <p style={{ fontSize: '20px' }}>NewsCentral was established in 2024 as a student project. <br />Our aim is to provide you with access to news articles breaking current <br />events, both global and national, from ABC News and BBC News sources.</p>
+      </div>
     </Fragment>
   );
 }
