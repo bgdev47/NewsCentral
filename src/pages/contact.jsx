@@ -14,7 +14,7 @@ function ContactPage() {
       </Head>
       <HeroSection 
         title='CONTACT US' 
-        bgImage="/backgrounds/contact.jpg"
+        bgImage="/backgrounds/contact.webp"
       />
       <div style={{ textAlign: 'center' }}>
       <h1><u>How To Contact</u></h1>

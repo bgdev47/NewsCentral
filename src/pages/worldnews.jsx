@@ -18,7 +18,7 @@ function WorldNewsPage(props) {
       <HeroSection 
         title='Global' 
         description='Catch Up On All Global News via BBC News'
-        bgImage="/backgrounds/global.jpg"
+        bgImage="/backgrounds/global.webp"
       />
       {worldArticles.length > 0 && <ArticlesList articles={worldArticles} />}
     </Fragment>

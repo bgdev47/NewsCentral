@@ -18,7 +18,7 @@ function HomePage(props) {
       <HeroSection 
         title='NewsCentral' 
         description='Catch Up On All Your Latest National & Global News'
-        bgImage="/backgrounds/home.jpg"
+        bgImage="/backgrounds/home.webp"
       />
       {articles.length > 0 && <ArticlesList articles={articles} />}
     </Fragment>

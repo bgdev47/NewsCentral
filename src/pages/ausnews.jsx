@@ -18,7 +18,7 @@ function AusNewsPage(props) {
       <HeroSection 
         title='National' 
         description='Catch Up On All Australian News via ABC News'
-        bgImage="/backgrounds/local.jpg"
+        bgImage="/backgrounds/local.webp"
       />
       {ausArticles.length > 0 && <ArticlesList articles={ausArticles} />}
     </Fragment>

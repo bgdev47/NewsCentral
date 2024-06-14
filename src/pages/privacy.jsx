@@ -14,7 +14,7 @@ function PrivacyPage() {
       </Head>
       <HeroSection 
         title ='PRIVACY POLICY'
-        bgImage="/backgrounds/privacy.jpg"
+        bgImage="/backgrounds/privacy.webp"
       />
       <div style={{ textAlign: 'center' }}>
         <h2>What Is Personal Information & Why Do We Collect It?</h2>

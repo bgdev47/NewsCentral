@@ -14,7 +14,7 @@ function AboutPage() {
       </Head>
       <HeroSection
         title='ABOUT US'
-        bgImage="/backgrounds/about.jpg"
+        bgImage="/backgrounds/about.webp"
       />
       <div style={{ textAlign: 'center' }}>
         <h1><u>A Little About Us...</u></h1>
