@@ -20,7 +20,7 @@ function ContactPage() {
       <div style={{ textAlign: 'center' }}>
         <Image 
           src={"/images/speech.webp"}
-          alt='image displaying an error 404 graphic'
+          alt='yellow papers on top of green surface resembling a speech bubble'
           width={500}
           height={350}
           style={{ 

@@ -9,7 +9,7 @@ function NotFoundPage() {
       <Fragment>     
         <Image 
           src={"/images/error.webp"}
-          alt='image displaying an error 404 graphic'
+          alt='graphic displaying red error 404 text'
           width={400}
           height={200}
         />
