@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 import HeroSection from '@/components/layout/HeroSection/HeroSection';
 
 function ContactPage() {
@@ -17,7 +18,16 @@ function ContactPage() {
         bgImage="/backgrounds/contact.webp"
       />
       <div style={{ textAlign: 'center' }}>
-      <h1><u>How To Contact</u></h1>
+        <Image 
+          src={"/images/speech.webp"}
+          alt='image displaying an error 404 graphic'
+          width={500}
+          height={350}
+          style={{ 
+            paddingTop: '40px'
+          }}
+        />
+        <h1><u>How To Contact</u></h1>
         <div>
           <h2>Phone</h2>
           <p>Customer Support: (03) 9124-2345</p>
